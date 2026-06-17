@@ -58,6 +58,10 @@ Computed:
 * Accuracy
 * Signal detection measures
 
+#### Behavioral Results
+
+![Behavioral results](figures/Figure1_behavior_accuracy_RT.png)
+
 ### EEG Analysis
 
 **Preprocessing**
@@ -76,6 +80,10 @@ Computed:
 
 **Contrast:** NoGo − Go
 
+#### ERP Waveforms
+
+![ERP Go vs NoGo](figures/Figure2_ERP_Go_NoGo_Fz_Pz.png)
+
 ### fMRI Analysis
 
 Subject-level NoGo − Go z-statistic maps were entered into a second-level group analysis.
@@ -88,12 +96,20 @@ Exploratory ROI analyses were performed using 6-mm spherical ROIs centered on ac
 
 Whole-brain maps are shown for visualization at an uncorrected threshold of z > 3.1.
 
+#### Whole-Brain Group Analysis
+
+![Whole-brain fMRI results](figures/Figure3_fMRI_whole_brain.png)
+
+#### ROI Analysis
+
+![ROI results](figures/Figure4_fMRI_ROI_barplot.png)
+
 ### Statistics
 
 * Paired t-tests for ERP effects
 * One-sample t-tests for ROI activation
 * Spearman correlations between EEG, fMRI, and behavioral measures
-* Benjamini–Hochberg FDR correction for ROI analyses
+* Benjamini–Hochberg FDR correction for ROI and correlation analyses
 
 ## Key Results
 
@@ -130,8 +146,9 @@ multimodal-eeg-fmri-inhibition/
 ├── figures/
 │   ├── structure.png
 │   ├── Figure1_behavior_accuracy_RT.png
-│   ├── Figure2_ERP_component_effects.png
-│   └── Figure3_fMRI_ROI_barplot.png
+│   ├── Figure2_ERP_Go_NoGo_Fz_Pz.png
+│   ├── Figure3_fMRI_ROI_barplot.png
+│   └── Figure4_fMRI_ROI_barplot.png
 │
 └── outputs/
     ├── eeg_fmri_behavior_merged_nogo-minus-go.csv
