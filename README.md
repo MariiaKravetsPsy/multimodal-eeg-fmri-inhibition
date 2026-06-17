@@ -62,6 +62,8 @@ Computed:
 
 ![Behavioral results](figures/Figure1_behavior_accuracy_RT.png)
 
+*Figure 1. Behavioral performance across participants.*
+
 ### EEG Analysis
 
 **Preprocessing**
@@ -83,6 +85,8 @@ Computed:
 #### ERP Waveforms
 
 ![ERP Go vs NoGo](figures/Figure2_ERP_Go_NoGo_Fz_Pz.png)
+
+*Figure 2. Grand-average ERP waveforms for Go and NoGo trials at Fz and Pz.*
 
 ### fMRI Analysis
 
