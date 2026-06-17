@@ -100,9 +100,13 @@ Whole-brain maps are shown for visualization at an uncorrected threshold of z > 
 
 ![Whole-brain fMRI results](figures/Figure3_fMRI_whole_brain.png)
 
+*Figure 3. Group-level NoGo > Go activation map (uncorrected z > 3.1).*
+
 #### ROI Analysis
 
 ![ROI results](figures/Figure4_fMRI_ROI_barplot.png)
+
+*Figure 4. Mean ROI activation estimates for ACC, preSMA, and IFG.*
 
 ### Statistics
 
@@ -131,7 +135,7 @@ Whole-brain maps are shown for visualization at an uncorrected threshold of z > 
 
 ## Conclusion
 
-The results provide convergent EEG and fMRI evidence for the involvement of frontal control networks (preSMA and IFG) in response inhibition.
+The results provide convergent EEG and fMRI evidence supporting the role of frontal control networks, particularly preSMA and IFG, in response inhibition. Together, the findings demonstrate the value of multimodal neuroimaging approaches for studying inhibitory control.
 
 ## Repository Structure
 
@@ -147,7 +151,7 @@ multimodal-eeg-fmri-inhibition/
 │   ├── structure.png
 │   ├── Figure1_behavior_accuracy_RT.png
 │   ├── Figure2_ERP_Go_NoGo_Fz_Pz.png
-│   ├── Figure3_fMRI_ROI_barplot.png
+│   ├── Figure3_fMRI_whole_brain.png
 │   └── Figure4_fMRI_ROI_barplot.png
 │
 └── outputs/
